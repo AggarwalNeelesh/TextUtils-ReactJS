@@ -35,17 +35,6 @@ export default function Navbar(props) {
               </Link> */}
             </li>
           </ul>
-          <form className="d-flex" role="search">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-primary" type="submit">
-              Search
-            </button>
-          </form>
           {/* <div className="btn-toolbar mx-2" role="toolbar" aria-label="Toolbar with button groups">
             <div className="btn-group mr-2" role="group" aria-label="First group">
               <button type="button" onClick={props.changeTheme("0")} style={{background : "white", color:"black"}} className="btn btn-secondary">0</button>
@@ -72,7 +61,7 @@ Navbar.propTypes = {
 }
 Navbar.defaultProps = {
   title: 'TextUtility',
-  home: "Homie",
+  home: "Home",
   about: "About Us",
   mode: "light"
 }
